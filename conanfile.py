@@ -1,12 +1,13 @@
 from conans import ConanFile, CMake, tools
-from conans.util.files import load, save
+from conans.util.files import load  #, save
 import os
 import sys
 import re
 
 class ProtobufConan(ConanFile):
     name = "Protobuf"
-    version = "3.1.0"
+    version = "3.5.1"
+    description = "Protocol Buffers - Google's data interchange format"
     url = "https://github.com/inexorgame/conan-protobuf.git"
     license = "https://github.com/google/protobuf/blob/v{}/LICENSE".format(version)
     requires = "zlib/1.2.11@conan/stable"

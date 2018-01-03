@@ -6,7 +6,7 @@ username = os.getenv("CONAN_USERNAME", "inexorgame")
 
 class ProtobufTestConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "Protobuf/3.1.0@{}/{}".format(username, channel)
+    requires = "Protobuf/3.5.1@{}/{}".format(username, channel)
     generators = "cmake"
 
     def build(self):
