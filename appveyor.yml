@@ -5,7 +5,7 @@ environment:
     PYTHON_ARCH: "32"
 
     CONAN_UPLOAD: 1
-    CONAN_REFERENCE: "Protobuf/3.1.0"
+    CONAN_REFERENCE: "Protobuf/3.5.1"
     CONAN_USERNAME: "inexorgame"
     CONAN_CHANNEL: "stable"
     CONAN_TOTAL_PAGES: 16
