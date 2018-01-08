@@ -4,6 +4,7 @@ import os
 import sys
 import re
 
+
 class ProtobufConan(ConanFile):
     name = "Protobuf"
     version = "3.5.1"
